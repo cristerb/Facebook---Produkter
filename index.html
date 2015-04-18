@@ -4,7 +4,7 @@
         <meta charset="utf-8">
         <meta http-equiv="X-UA-Compatible" content="IE=edge">
         <title>Tell produkter</title>
-        <meta name="description" content="">
+        <meta name="description" content="Oversikt over Tell sine Apple produkter">
         <meta name="viewport" content="width=device-width, initial-scale=1">
 
         <link rel="apple-touch-icon" href="apple-touch-icon.png">
@@ -239,6 +239,18 @@ Touch ID fingeravtrykkssensor.</p>
 </ul>
 </div>
   
+ <div class="row" id="bunn">
+    <div class="small-12 columns">
+      <h1>Hvor vil du gå?</h1>
+      <ul>
+        <li><a href="#hero">Tilbake til topp</a></li>
+        <li><a href="#iphone-section">iPhone</a></li>
+        <li><a href="#ipad-section">iPad</a></li>
+        <li><a href="#mac-section">Mac</a></li>
+      </ul>
+    </div>
+  </div>  
+  
 
 </div>  <!-- End Page-wrapper -->
   
@@ -250,6 +262,27 @@ Touch ID fingeravtrykkssensor.</p>
 <script>
   $(document).foundation();
 </script>  
+
+<!-- Smooth scroll til ID  -->      
+<script>
+$(document).ready(function(){
+  $('a[href*=#]').click(function() {
+    if (location.pathname.replace(/^\//,'') == this.pathname.replace(/^\//,'')
+    && location.hostname == this.hostname) {
+      var $target = $(this.hash);
+      $target = $target.length && $target
+      || $('[name=' + this.hash.slice(1) +']');
+      if ($target.length) {
+        var targetOffset = $target.offset().top;
+        $('html,body')
+        .animate({scrollTop: targetOffset}, 1000);
+       return false;
+      }
+    }
+  });
+});      
+</script>   
+      
 </body>  
 
 

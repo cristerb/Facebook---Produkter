@@ -36,6 +36,7 @@ h1, h2, h3, h4, h5 {
   letter-spacing: 1.6px;
 }
 
+
 h3 {
   font-size: 23px;
 }
@@ -129,7 +130,7 @@ p:nth-child(2) {
 
 /* #### HERO ####*/
 
-#hero {
+#hero, #bunn {
   display: flex;
   align-items: center;
   text-align: center;

@@ -5914,7 +5914,7 @@ p:nth-child(2) {
 }
 
 /* #### HERO ####*/
-#hero {
+#hero, #bunn {
   display: -webkit-box;
   display: -webkit-flex;
   display: -ms-flexbox;
@@ -5927,10 +5927,10 @@ p:nth-child(2) {
   padding: 20px;
   margin-bottom: 60px;
 }
-#hero h2 {
+#hero h2, #bunn h2 {
   color: #14a449;
 }
-#hero ul {
+#hero ul, #bunn ul {
   list-style: none;
   margin: auto;
   display: -webkit-box;
@@ -5942,7 +5942,7 @@ p:nth-child(2) {
           justify-content: space-around;
   max-width: 300px;
 }
-#hero li a {
+#hero li a, #bunn li a {
   color: #14a449;
 }
 
