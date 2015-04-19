@@ -3082,6 +3082,18 @@ p {
 h1, h2, h3, h4, h5 {
   color: black;
   letter-spacing: 1.6px;
+  font-family: "Open sans", sans-serif;
+}
+
+.row h2 {
+  text-align: center;
+  color: gray;
+  font-size: 3em;
+  margin-bottom: 30px;
+}
+
+a {
+  color: #14a449;
 }
 
 h3 {
@@ -3163,9 +3175,6 @@ p:nth-child(2) {
   padding: 20px;
   margin-bottom: 60px;
 }
-#hero h2, #bunn h2 {
-  color: #14a449;
-}
 #hero ul, #bunn ul {
   list-style: none;
   margin: auto;
@@ -3176,10 +3185,6 @@ p:nth-child(2) {
   -webkit-justify-content: space-around;
       -ms-flex-pack: distribute;
           justify-content: space-around;
-  max-width: 450px;
-}
-#hero li a, #bunn li a {
-  color: #14a449;
 }
 
 /* #### Footer ####*/

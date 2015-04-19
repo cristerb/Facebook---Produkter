@@ -40,6 +40,19 @@ p {
 h1, h2, h3, h4, h5 {
   color: black;
   letter-spacing: 1.6px;
+  font-family: "Open sans", sans-serif;
+
+}
+
+.row h2 {
+  text-align: center;
+  color: gray;
+  font-size: 3em;
+  margin-bottom: 30px;
+}
+
+a {
+  color: $tell-green;
 }
 
 
@@ -134,23 +147,12 @@ p:nth-child(2) {
   padding: 20px;
   margin-bottom: 60px;
   
-  
-    h2 { 
-      color: $tell-green;
-    }
 
     ul {
       list-style: none;
       margin: auto;
       display: flex;
       justify-content: space-around;
-      max-width: 450px;
-
-    }
-
-    li a {
-      color: $tell-green;
-
     }
   
 }
