@@ -3085,7 +3085,7 @@ h1, h2, h3, h4, h5 {
   font-family: "Open sans", sans-serif;
 }
 
-.row h2 {
+h2.produkt-title {
   text-align: center;
   color: gray;
   font-size: 3em;
@@ -3185,13 +3185,18 @@ p:nth-child(2) {
   -webkit-justify-content: space-around;
       -ms-flex-pack: distribute;
           justify-content: space-around;
+  -webkit-flex-wrap: wrap;
+      -ms-flex-wrap: wrap;
+          flex-wrap: wrap;
+}
+#hero li, #bunn li {
+  margin-top: 20px;
+  margin-right: 5px;
 }
 
-/* #### Footer ####*/
 /* #### SMALL LAYOUT ####*/
 @media screen and (max-width: 641px) {
   h2 {
-    text-align: center;
     font-size: 2.2em;
   }
 }
